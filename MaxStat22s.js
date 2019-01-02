@@ -16,17 +16,17 @@ var classes = { //lists are in this order: hp,mp,att,def,spd,dex,vit,wis
 	"Samurai":{"av":[625,195,40,0,29,29,19,40],"max":[720,252,75,25,50,50,40,60]}
 };
 
-var incr_stats = [5,5,1,1,1,2,1,2];
+var incr_stats = [5,5,1,1,1,1,1,1];
 var discount = 0.8; //percent from 0-1
 
 var min_denomations = [
-{num:8,price:299,packid:"27545030469"},
-{num:8,price:199,packid:"27545053701"},
-{num:16,price:199,packid:"28707024133"},
-{num:16,price:199,packid:"28707043013"},
-{num:16,price:199,packid:"28707188677"},
+{num:8,price:50000,packid:"27545030469"},
+{num:8,price:50000,packid:"27545053701"},
+{num:16,price:599,packid:"28707024133"},
+{num:16,price:599,packid:"28707043013"},
+{num:16,price:399,packid:"28707188677"},
 {num:8,price:199,packid:"35633532869"},
-{num:16,price:199,packid:"28707240005"},
+{num:16,price:599,packid:"28707240005"},
 {num:8,price:199,packid:"27545053189"}
 ]
 
